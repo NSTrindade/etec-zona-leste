@@ -193,25 +193,27 @@
         </div>
     </section>
 
-    <!-- Mapa (Placeholder) -->
-    <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
-                Localização
-            </h2>
-            <div class="bg-gray-300 rounded-lg overflow-hidden shadow-lg h-96 flex items-center justify-center">
-                <div class="text-center">
-                    <i class="fas fa-map text-6xl text-gray-500 mb-4"></i>
-                    <p class="text-gray-600 text-lg">
-                        Mapa interativo - Zona Leste, São Paulo - SP
-                    </p>
-                    <p class="text-gray-500 text-sm mt-2">
-                        Coordenadas: {{ $contactInfo['coordinates']['latitude'] }}, {{ $contactInfo['coordinates']['longitude'] }}
-                    </p>
-                </div>
-            </div>
+
+   <!-- Mapa (Google Maps - Av. Águia de Haia, 2633) -->
+<section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+            Localização
+        </h2>
+        <div class="bg-gray-300 rounded-lg overflow-hidden shadow-lg h-96">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.125021133514!2d-46.47731632467084!3d-23.54599577880945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce616494558627%3A0xfa692090f7993d4!2sAv.%20%C3%81guia%20de%20Haia%2C%202633%20-%20Cidade%20Ant%C3%B4nio%20Est%C3%AAv%C3%A3o%20de%20Carvalho%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003694-000!5e0!3m2!1spt-BR!2sbr!4v1713200000000!5m2!1spt-BR!2sbr" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- FAQ -->
     <section class="py-16 bg-gray-50">

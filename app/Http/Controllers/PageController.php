@@ -26,21 +26,21 @@ class PageController extends Controller
                 'title' => 'Imposto de Renda 2026',
                 'description' => 'Declare seu imposto de renda GRATUITAMENTE na ETEC Zona Leste. Não esqueça de trazer 1 KG de alimento não perecível.',
                 'date' => '2026-04-22',
-                'image' => 'https://via.placeholder.com/400x250?text=Imposto+de+Renda',
+                'image' => asset('img/impostoderenda.webp'),
             ],
             [
                 'id' => 2,
                 'title' => 'Eleição do Grêmio Estudantil',
                 'description' => 'Participe da eleição do Grêmio Estudantil 2026. Seu voto é importante para o futuro da escola.',
                 'date' => '2026-04-13',
-                'image' => 'https://via.placeholder.com/400x250?text=Grêmio+Estudantil',
+                'image' => asset('img/gremio.png'),
             ],
             [
                 'id' => 3,
                 'title' => 'Feira Tecnológica 2025',
                 'description' => 'Confira os projetos incríveis desenvolvidos pelos alunos da ETEC Zona Leste em nossa Feira Tecnológica.',
                 'date' => '2026-03-15',
-                'image' => 'https://via.placeholder.com/400x250?text=Feira+Tecnológica',
+                'image' => asset('img/feira.jpg'),
             ],
         ];
 
