@@ -1,5 +1,8 @@
 # ETEC Zona Leste - Website Institucional
 
+[Clique aqui para ir ao VÍDEO](https://youtu.be/9AQJfdeXCTo)
+
+
 Um website moderno e responsivo para uma instituição de ensino técnico, desenvolvido com **Laravel 11**, **Blade Templates** e **Tailwind CSS**.
 
 ## 📋 Características
@@ -20,6 +23,3 @@ Um website moderno e responsivo para uma instituição de ensino técnico, desen
 - **Fontes**: Google Fonts (Poppins)
 - **Mapas**: Google Maps Embed API
 - **Servidor**: PHP Built-in Server
-
-## 📁 Estrutura do Projeto
-
